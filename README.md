@@ -1,5 +1,7 @@
-# 🗓 [Calendar type Diary](http://calendar-type-diary.shop.s3-website.ap-northeast-2.amazonaws.com/)
+# 🗓 [Calendar type Diary](http://calendar-type-diary.shop/)
 항해 99 3기 4주차 팀 프로젝트 - 프론트 원격 저장소
+
+🔓[백엔드 원격 저장소](https://github.com/jeangho293/Calendar-Diary-Back)
 
 ## 👥 팀원 
 - Front 김갑민 ([Github](https://github.com/gabmin)), 박시영 ([Github](https://github.com/larisms)), 심선아 ([Github](https://github.com/jjubbu))
@@ -9,8 +11,12 @@
 - 2021/10/11 ~ 2021/10/16
 
 ## 👀 View
+[영상으로 보기](https://youtu.be/ddu1T307obo)
+<img width="2048" alt="스크린샷 2021-10-16 오후 5 14 55" src="https://user-images.githubusercontent.com/58936251/137580149-f3ebcbc5-47d3-4f90-a514-7d1a0ae9a8c8.png">
+<img width="2048" alt="스크린샷 2021-10-16 오후 5 17 10" src="https://user-images.githubusercontent.com/58936251/137580199-4b9f9e22-6984-407a-a2d7-29fd57f7d73e.png">
+<img width="2048" alt="스크린샷 2021-10-16 오후 5 17 24" src="https://user-images.githubusercontent.com/58936251/137580201-2dbdcd8f-33f3-41ae-b739-97914f018c7d.png">
+<img width="2048" alt="스크린샷 2021-10-16 오후 5 17 35" src="https://user-images.githubusercontent.com/58936251/137580205-260f67c5-a402-4d84-9a49-00433c73b10b.png">
 
-여기에 이미지/gif 넣기
 ## 💡 주요기능
 - 로그인, 회원가입 
     - 공란 여부 확인
@@ -39,4 +45,18 @@
 [Front-end-Rules Wiki](https://github.com/jjubbu/Calendar-Diary-Front/wiki/Front-end-Rules)
 
 
-
+## 📖 라이브러리
+- Fullcalendar 
+    - 메인 캘린더를 빠르게 구현
+- axios
+    - 서버와의 연결(데이터 추가, 수정, 가져오기)
+- immer
+    - 불변성 유지
+- lodash
+    - input 이벤트 콜백 감소
+- redux-toolkit
+    - 리덕스 모듈 코드 최소화
+- redux-chunk
+    - 비동기 작업을 위한 미들웨어
+- styled-components
+    - Css in js, 전반적인 스타일 작업
